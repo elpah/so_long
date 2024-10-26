@@ -10,6 +10,7 @@ In this game, players navigate through a custom map, collect items, and reach th
 - Memory management and error handling in C
 
 **Gameplay**
+
 - Objective: Guide the character through the map, collect all items, and reach the exit to win.
 Controls:
 
@@ -17,3 +18,5 @@ Controls:
   - A - Move Left
   - S - Move Down
   - D - Move Right
+
+**Setup & Installation**
