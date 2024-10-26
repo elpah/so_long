@@ -2,7 +2,8 @@
 
 In this game, players navigate through a custom map, collect items, and reach the exit to complete the level.
 
-** Project Overview**
+**Project Overview**
+
 - Map parsing from text files
 - Sprite rendering with MiniLibX
 - Event handling for player movement
