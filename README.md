@@ -74,7 +74,7 @@ In this game, players navigate through a custom map, collect items, and reach th
 |   ├── png/  
 |   |   └── *.png  
 |   └── xpm  
-|        └── *.xpm  
+|       └── *.xpm  
 └── README.md  
 
 ## **Map Requirements**
