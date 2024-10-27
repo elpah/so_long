@@ -50,32 +50,34 @@ In this game, players navigate through a custom map, collect items, and reach th
    ```
 ## **Project Structure
 
-  so_long/  
-├── Makefile  
-├── gnl/  
-│   ├── *.c  
-│   ├── *.h  
-│   └── Makefile  
-├── printf.c/  
-│   ├── *.c  
-│   ├── *.h  
-│   └── Makefile  
-├── libft/  
-│   ├── *.c  
-│   ├── *.h  
-│   └── Makefile  
-├── src/  
-|   ├── *.c  
-|   ├── *.h  
-|   └── Makefile  
-├── maps/  
-|   └── *.ber  
-├── textures/  
-|   ├── png/  
-|   |   └── *.png  
-|   └── xpm  
-|       └── *.xpm  
-└── README.md  
+```
+so_long/
+├── Makefile
+├── gnl/
+│   ├── *.c
+│   ├── *.h
+│   └── Makefile
+├── printf.c/
+│   ├── *.c
+│   ├── *.h
+│   └── Makefile
+├── libft/
+│   ├── *.c
+│   ├── *.h
+│   └── Makefile
+├── src/
+│   ├── *.c
+│   ├── *.h
+│   └── Makefile
+├── maps/
+│   └── *.ber
+├── textures/
+│   ├── png/
+│   │   └── *.png
+│   └── xpm/
+│       └── *.xpm
+└── README.md
+```
 
 ## **Map Requirements**
 
