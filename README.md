@@ -1,7 +1,6 @@
 ## **SO_LONG**
 
-**so_long** is a 2D game built with C and MiniLibX. In this game, the player navigates a custom map, collects items, and reaches the exit to complete the level.  
-This project highlights core programming skills, including map parsing, event handling, and sprite rendering.
+**so_long** is a 2D game built with C and MiniLibX. In this game, the player navigates a custom map, collects items, and reaches the exit to complete the level. This project highlights core programming skills, including map parsing, event handling, and sprite rendering.
 
 
 ## **Project Overview**
