@@ -3,18 +3,18 @@
 /*                                                        :::      ::::::::   */
 /*   checker.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: eobeng <eobeng@student.42.fr>              +#+  +:+       +#+        */
+/*   By: elpah <elpah@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/10 18:37:01 by eobeng            #+#    #+#             */
-/*   Updated: 2024/10/26 19:45:01 by eobeng           ###   ########.fr       */
+/*   Updated: 2024/11/03 00:23:42 by elpah            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "so_long.h"
+#include "../so_long.h"
 
-int	is_valid_file(char *str)
+int is_valid_file(char *str)
 {
-	int	len;
+	int len;
 
 	if (!str)
 		return (0);
@@ -26,10 +26,10 @@ int	is_valid_file(char *str)
 	return (1);
 }
 
-int	only_valid_chars(char **rec)
+int only_valid_chars(char **rec)
 {
-	int	i;
-	int	j;
+	int i;
+	int j;
 
 	i = 0;
 	while (rec[i] != NULL)
@@ -50,27 +50,21 @@ int	only_valid_chars(char **rec)
 	return (1);
 }
 
-int	ft_valid_chars(t_game *game)
+int ft_valid_chars(t_game *game)
 {
-	if (!check_characters(game, 'C')
-		|| !check_characters(game, 'E')
-		|| !check_characters(game, 'P')
-		|| !check_characters(game, '1'))
+	if (!check_characters(game, 'C') || !check_characters(game, 'E') || !check_characters(game, 'P') || !check_characters(game, '1'))
 	{
 		return (0);
 	}
 	return (1);
 }
 
-int	map_is_valid(t_game *game)
+int map_is_valid(t_game *game)
 {
-	char	**map;
+	char **map;
 
 	map = game->map;
-	if (!ft_is_rectangle(map)
-		|| !ft_surrounded_by_1(map)
-		|| !ft_valid_chars(game)
-		|| !only_valid_chars(map))
+	if (!ft_is_rectangle(map) || !ft_surrounded_by_1(map) || !ft_valid_chars(game) || !only_valid_chars(map))
 	{
 		ft_printf("Error\n:Map is not valid\n");
 		return (0);
