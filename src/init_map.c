@@ -6,7 +6,7 @@
 /*   By: elpah <elpah@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/25 23:57:46 by eobeng            #+#    #+#             */
-/*   Updated: 2024/11/06 01:31:48 by elpah            ###   ########.fr       */
+/*   Updated: 2024/11/06 01:32:45 by elpah            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,4 +73,20 @@ void	fill_map(char **av, t_game *game, int line_count)
 	if (str)
 		free(str);
 	close(fd);
+}
+
+void	set_row_col(t_game *game)
+{
+	int	i;
+
+	if (!game || !game->map)
+		return ;
+	i = 0;
+	while (game->map[i] != NULL)
+		i++;
+	game->total_rows = i;
+	if (game->total_rows > 0)
+		game->total_col = ft_strlen(game->map[1]);
+	else
+		game->total_col = 0;
 }
