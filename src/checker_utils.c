@@ -3,19 +3,19 @@
 /*                                                        :::      ::::::::   */
 /*   checker_utils.c                                    :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: eobeng <eobeng@student.42.fr>              +#+  +:+       +#+        */
+/*   By: elpah <elpah@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/26 18:20:19 by eobeng            #+#    #+#             */
-/*   Updated: 2024/10/26 18:56:59 by eobeng           ###   ########.fr       */
+/*   Updated: 2024/11/03 00:23:40 by elpah            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "so_long.h"
+#include "../so_long.h"
 
-int	ft_is_rectangle(char **rec)
+int ft_is_rectangle(char **rec)
 {
-	int	first_line;
-	int	x;
+	int first_line;
+	int x;
 
 	x = 0;
 	if (!rec || !rec[0])
@@ -31,9 +31,9 @@ int	ft_is_rectangle(char **rec)
 	return (1);
 }
 
-int	ft_all_ones(char *rec_row)
+int ft_all_ones(char *rec_row)
 {
-	int	i;
+	int i;
 
 	i = 0;
 	while (rec_row[i + 1] != '\0')
@@ -45,10 +45,10 @@ int	ft_all_ones(char *rec_row)
 	return (1);
 }
 
-int	ft_surrounded_by_1(char **rec)
+int ft_surrounded_by_1(char **rec)
 {
-	int	x;
-	int	len;
+	int x;
+	int len;
 
 	if (!rec || !rec[0])
 		return (0);
@@ -67,11 +67,11 @@ int	ft_surrounded_by_1(char **rec)
 	return (1);
 }
 
-int	count_chars(char **rec, char c)
+int count_chars(char **rec, char c)
 {
-	int	i;
-	int	j;
-	int	count;
+	int i;
+	int j;
+	int count;
 
 	count = 0;
 	i = 0;
@@ -89,11 +89,11 @@ int	count_chars(char **rec, char c)
 	return (count);
 }
 
-int	check_characters(t_game *game, char c)
+int check_characters(t_game *game, char c)
 {
-	int		i;
-	int		j;
-	char	**map;
+	int i;
+	int j;
+	char **map;
 
 	map = game->map;
 	i = 0;
