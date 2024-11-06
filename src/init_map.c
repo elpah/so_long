@@ -6,7 +6,7 @@
 /*   By: elpah <elpah@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/25 23:57:46 by eobeng            #+#    #+#             */
-/*   Updated: 2024/11/06 01:30:57 by elpah            ###   ########.fr       */
+/*   Updated: 2024/11/06 01:31:48 by elpah            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,4 +46,31 @@ void	allocate_map(t_game *game, int line_count)
 		return ;
 	}
 	game->map[line_count] = NULL;
+}
+
+void	fill_map(char **av, t_game *game, int line_count)
+{
+	int		fd;
+	int		i;
+	char	*str;
+
+	fd = 0;
+	i = 0;
+	fd = open(av[1], O_RDONLY);
+	if (fd == -1)
+	{
+		printf("Unable to open map\n");
+		return ;
+	}
+	str = get_next_line(fd);
+	while (str != NULL && i < line_count)
+	{
+		game->map[i] = ft_strtrim(str, "\n");
+		free(str);
+		i++;
+		str = get_next_line(fd);
+	}
+	if (str)
+		free(str);
+	close(fd);
 }
