@@ -6,7 +6,7 @@
 /*   By: elpah <elpah@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/25 23:57:46 by eobeng            #+#    #+#             */
-/*   Updated: 2024/11/06 01:29:59 by elpah            ###   ########.fr       */
+/*   Updated: 2024/11/06 01:30:57 by elpah            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,4 +33,17 @@ void	init_game_variables(t_game *game)
 	game->addr = NULL;
 	game->collectibles = 0;
 	game->collectibles_count = 0;
+}
+
+void	allocate_map(t_game *game, int line_count)
+{
+	if (!game)
+		return ;
+	game->map = ft_calloc((line_count + 1), sizeof(char *));
+	if (game->map == NULL)
+	{
+		printf("Failed to allocate memory for map");
+		return ;
+	}
+	game->map[line_count] = NULL;
 }
