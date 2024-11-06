@@ -6,14 +6,13 @@
 /*   By: elpah <elpah@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/10 18:21:14 by eobeng            #+#    #+#             */
-/*   Updated: 2024/11/03 00:20:52 by elpah            ###   ########.fr       */
+/*   Updated: 2024/11/06 01:34:13 by elpah            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef SO_LONG_H
 #define SO_LONG_H
 
-// # include <stdio.h>
 #include <string.h>
 #include <fcntl.h>
 #include <unistd.h>
