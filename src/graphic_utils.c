@@ -6,11 +6,11 @@
 /*   By: eobeng <eobeng@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/26 18:32:48 by eobeng            #+#    #+#             */
-/*   Updated: 2024/10/26 19:13:26 by eobeng           ###   ########.fr       */
+/*   Updated: 2024/11/07 16:13:22 by eobeng           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "so_long.h"
+#include "../so_long.h"
 
 int	free_destroy(t_game *game)
 {

@@ -6,11 +6,11 @@
 /*   By: eobeng <eobeng@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/26 18:37:01 by eobeng            #+#    #+#             */
-/*   Updated: 2024/10/26 18:49:07 by eobeng           ###   ########.fr       */
+/*   Updated: 2024/11/07 16:13:34 by eobeng           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "so_long.h"
+#include "../so_long.h"
 
 void	change_position(t_game *game, int row, int col)
 {

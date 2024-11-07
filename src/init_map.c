@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   init_map.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: elpah <elpah@student.42.fr>                +#+  +:+       +#+        */
+/*   By: eobeng <eobeng@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/25 23:57:46 by eobeng            #+#    #+#             */
-/*   Updated: 2024/11/06 01:32:45 by elpah            ###   ########.fr       */
+/*   Updated: 2024/11/07 16:13:27 by eobeng           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "so_long.h"
+#include "../so_long.h"
 
 void	init_game_variables(t_game *game)
 {

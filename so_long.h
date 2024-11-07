@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   so_long.h                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: elpah <elpah@student.42.fr>                +#+  +:+       +#+        */
+/*   By: eobeng <eobeng@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/10 18:21:14 by eobeng            #+#    #+#             */
-/*   Updated: 2024/11/06 01:34:13 by elpah            ###   ########.fr       */
+/*   Updated: 2024/11/07 16:15:41 by eobeng           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@
 #include "./gnl/get_next_line.h"
 #include "./libft/libft.h"
 #include "./printf/ft_printf.h"
-// # include <mlx.h>
+# include <mlx.h>
 
 #define SIZE 80
 #define TEXTURE_WALL "textures/xpm/wall.xpm"

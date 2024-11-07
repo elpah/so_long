@@ -6,11 +6,11 @@
 /*   By: eobeng <eobeng@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/25 14:21:14 by eobeng            #+#    #+#             */
-/*   Updated: 2024/10/26 19:26:47 by eobeng           ###   ########.fr       */
+/*   Updated: 2024/11/07 16:13:18 by eobeng           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "so_long.h"
+#include "../so_long.h"
 
 void	launch_graphics(t_game *game)
 {

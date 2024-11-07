@@ -6,11 +6,11 @@
 /*   By: eobeng <eobeng@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/25 16:32:35 by eobeng            #+#    #+#             */
-/*   Updated: 2024/11/07 15:59:15 by eobeng           ###   ########.fr       */
+/*   Updated: 2024/11/07 16:13:39 by eobeng           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "so_long.h"
+#include "../so_long.h"
 
 void	is_exit(t_game *game, int row, int col)
 {
