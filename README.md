@@ -3,6 +3,9 @@
 **so_long** is a 2D game built with C and MiniLibX. In this game, the player navigates a custom map, collects items, and reaches the exit to complete the level. This project highlights core programming skills, including map parsing, event handling, and sprite rendering.
 
 
+## Preview
+https://github.com/user-attachments/assets/8562dfd8-27bc-4ff3-99bb-9b50e6dc7170
+
 ## **Project Overview**
 
 - Map parsing from text files
