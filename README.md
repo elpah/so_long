@@ -4,7 +4,8 @@
 
 
 ## Preview
-![so_long_preview](https://github.com/user-attachments/assets/8562dfd8-27bc-4ff3-99bb-9b50e6dc7170)
+![solong_prev](https://github.com/user-attachments/assets/570cddc6-6a59-4525-9356-d0056f6b8cf2)
+
 
 ## **Project Overview**
 
